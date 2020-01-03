@@ -8,6 +8,7 @@
 ```
 hupai-data
 ├── delta      # 最低可成交价与警示价差值
+├── limits     # 警示价
 └── results    # 历年拍卖结果
 ```
 
