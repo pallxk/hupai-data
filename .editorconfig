@@ -9,3 +9,6 @@ charset = utf-8
 end_of_line = crlf
 insert_final_newline = true
 trim_trailing_whitespace = true
+
+[results/*.csv,limits/*.csv]
+charset = utf-8-bom
