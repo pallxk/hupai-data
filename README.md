@@ -18,3 +18,8 @@ hupai-data
 
 1. [个人非营业性客车额度历年拍卖结果](http://www.alltobid.com/contents/16/71.html)
 2. [51hupai.com](http://51hupai.com/How-to/review)
+
+
+## LICENSE
+
+[CC-BY-4.0](LICENSE)
