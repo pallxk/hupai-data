@@ -3,12 +3,19 @@
 # top-most EditorConfig file
 root = true
 
-# Windows-style newlines with a newline ending every file
+# Unix-style newlines with a newline ending every file
 [*]
 charset = utf-8
-end_of_line = crlf
+end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
+
+[README.md]
+end_of_line = crlf
+trim_trailing_whitespace = false
+
+[*.csv]
+end_of_line = crlf
 
 [results/*.csv,limits/*.csv]
 charset = utf-8-bom

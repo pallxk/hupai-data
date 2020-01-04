@@ -1,0 +1,17 @@
+{
+  "name": "hupai-data",
+  "version": "1.0.201912",
+  "description": "沪牌拍牌相关数据",
+  "author": "pallxk <github@pallxk.com>",
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pallxk/hupai-data.git"
+  },
+  "scripts": {
+    "generate-json": "./scripts/generate-json"
+  },
+  "devDependencies": {
+    "csv2json": "^2.0.2"
+  }
+}
