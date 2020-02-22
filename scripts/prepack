@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -eux
+
+cd "$(dirname "$0")"
+
+./generate-combined-csv
+./generate-json
