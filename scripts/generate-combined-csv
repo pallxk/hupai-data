@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -eux
+
+cd "$(dirname "$0")"/..
+
+for d in delta limits lowest results; do
+  {
+    # heading
+    head -1 $(ls -1r $d/$d?*.csv | head -1)
+
+    # data
+    for f in $d/$d?*.csv; do
+      if [ $d = results ]; then
+        tail -n+2 $f | sed -E 's/^(([^,]+,){4})([^,]+)$/\1,\3/'
+      else
+        tail -n+2 $f
+      fi
+    done
+  } > $d/$d.csv
+done
