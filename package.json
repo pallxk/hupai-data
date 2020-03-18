@@ -9,6 +9,7 @@
     "url": "https://github.com/pallxk/hupai-data.git"
   },
   "scripts": {
+    "version": "./scripts/prepack && git add .",
     "prepack": "./scripts/prepack",
     "generate-combined-csv": "./scripts/generate-combined-csv",
     "generate-json": "./scripts/generate-json"
